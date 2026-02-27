@@ -1,14 +1,30 @@
 {
   "name": "openvision",
-  "module": "index.ts",
+  "version": "0.1.0",
   "type": "module",
+  "license":"MIT",
   "private": true,
   "packageManager": "bun@1.3.9",
-  "devDependencies": {
-    "@tsconfig/bun": "^1.0.10",
-    "@types/bun": "1.3.9"
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "catalog": {
+      "@types/bun": "1.3.9",
+      "@types/node": "25.3.1",
+      "@tsconfig/bun": "1.0.10",
+      "typescript": "5.9.3"
+    }
   },
-  "peerDependencies": {
-    "typescript": "5.9.3"
+  "devDependencies": {
+    "@tsconfig/bun": "1.0.10"
+  },
+  "prettier": {
+    "semi": false,
+    "printWidth": 120
+  },
+  "overrides": {
+    "@types/bun": "catalog:",
+    "@types/node": "catalog:"
   }
 }

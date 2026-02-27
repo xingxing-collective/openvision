@@ -1,9 +1,0 @@
-{
-  "name": "OpenVision",
-  "description": "Base Level Extension",
-  "version": "0.1",
-  "manifest_version": 3,
-  "action": {
-    "default_icon": "./src/images/openvision.png"
-  }
-}
