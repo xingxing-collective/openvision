@@ -5,6 +5,9 @@
   "license": "MIT",
   "private": true,
   "packageManager": "bun@1.3.10",
+  "scripts": {
+    "dev": "bun run --cwd packages/openvision --conditions=browser index.html"
+  },
   "workspaces": {
     "packages": [
       "packages/*"
