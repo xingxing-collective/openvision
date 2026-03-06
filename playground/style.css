@@ -87,7 +87,7 @@ section {
 }
 
 .highlighter {
-  background: rgba(0, 255, 0, 0.25);
+  background: #00ff0040;
   border: 1px dashed #fff;
   z-index: 1;
   position: absolute;

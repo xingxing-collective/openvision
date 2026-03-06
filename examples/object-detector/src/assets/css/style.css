@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+body {
+  position: fixed;
+  inset: 0;
+  padding: 8px;
+  color: #3d3d3d;
+}
