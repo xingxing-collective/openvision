@@ -1,1 +1,1 @@
-console.log('Hello OpenVision')
+export * from './solutions'
