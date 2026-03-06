@@ -1,0 +1,7 @@
+{
+  "name": "@openvision/playground",
+  "private": true,
+  "scripts": {
+    "dev": "bun run index.html"
+  }
+}
